@@ -215,3 +215,13 @@ section{
      ul li:hover ul.dropdown{
 display: block;   
   }
+  form{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: wheat;
+  }
+  form h2{
+    color: rgb(255, 0, 170);
+    
+  }
