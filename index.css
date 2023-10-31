@@ -145,21 +145,21 @@ section{
         width: 400px;
         height: 400px;
         background-size: 100% 100% ;
-        background-image: url("/images/c2.jpg");
+        background-image: url("./images/c2.jpg");
           animation: changeImage 10s  linear infinite   ; 
           background-repeat: no-repeat;
       }
      @keyframes  changeImage {
          0%{
-             background-image: url("/images/c2.jpg");
+             background-image: url("./images/c2.jpg");
          }
           
          50%{
-             background-image: url("/images/c5.jpg");
+             background-image: url("./images/c5.jpg");
          }
           
          100%{
-             background-image: url("/images/c3.jpg");
+             background-image: url("./images/c3.jpg");
          }
      }
      .imgSlider1{
