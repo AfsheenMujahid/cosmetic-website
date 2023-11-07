@@ -8,12 +8,11 @@ body{
     background-color: rgb(255, 255, 255);
    background-image: url("./images/background.jpg");
    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: grid;
+     display: grid;
+     background-size: cover;
+     background-position: center;
     place-items: center;
-    animation: slideImage linear infinite;
-}
+ }
  
 li{
     list-style: none;
@@ -31,6 +30,8 @@ li{
     
     
 }
+ 
+
 /*HEADER*/
 header{
     position: relative;
@@ -38,13 +39,13 @@ header{
 }
 .navbar{
     padding-top: 30px;
-width: 1347px;
+width: 100%;
 height: 70px; 
 display: flex;
 background-color: rgb(23, 9, 102);
 align-items: center;
 justify-content:space-between;
-position: sticky;
+position:sticky;
 }
 .navbar .logo img{
 padding-top: 10px;
@@ -85,7 +86,7 @@ padding-top: 10px;
 
 }
 main{
-    padding-top: 300px;
+    padding-top: 250px;
 }
 .container1 h1{
     font-size: 30px;
@@ -97,6 +98,8 @@ main{
 .box{
 width: 500px;
 height: 450px;
+background-image: url("./images/buy-now-button.png");
+background-repeat: no-repeat;
 border: 2px solid #ff259d;
 margin: 0 auto;
 position: relative;
@@ -120,8 +123,8 @@ section{
 }
  
     .imgSlider{
-       width: 400px;
-       height: 400px;
+        width: 300px;
+        height: 300px;
        background-size: 100% 100% ;
        background-image: url("./images/c1.jpg");
          animation: changeImage 10s  linear infinite   ; 
@@ -143,12 +146,12 @@ section{
     .container3{
         display: flex;
         gap: 30px;
-        height: 500px;
+        height: 400px;
         padding-left: 30px ;
     }
     .imgSlider1{
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
         background-size: 100% 100% ;
         background-image: url("./images/c2.jpg");
           animation: changeImage 10s  linear infinite   ; 
@@ -168,8 +171,8 @@ section{
          }
      }
      .imgSlider1{
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
         background-size: 100% 100% ;
         background-image: url("./images/c2.jpg");
           animation: changeImage 10s  linear infinite   ; 
@@ -204,7 +207,7 @@ section{
      }
      ul li ul.dropdown{
         width: 80px;
-        background:  rgb(167, 3, 3);
+        background:  rgb(167, 3, 71);
         position: absolute;
         z-index: 999;
         display: none;
@@ -219,9 +222,54 @@ display: block;
     margin: 10px;
     padding: 10px;
     text-align: center;
-    color: wheat;
-  }
+    color: rgb(216, 12, 12);
+    border: 2px solid rgb(102, 129, 248);
+    width: 400px;
+    margin-left: 460px;
+    background-color: rgb(205, 245, 255);
+    padding-left: 50px;
+
+    }
+ #contact{
+margin-left: 11px;
+
+ }
+ #address{
+    margin-left: 25px;
+ }
   form h2{
     color: rgb(255, 0, 170);
     
+  }
+  form input{
+     padding: 5px;
+     margin: 10px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
+
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display:block;
+    border: 3px solid #5f25ff;
+    border-radius: 250px;
+    overflow: hidden;
+  }
+  
+  .desc {
+    padding: 10px;
+    text-align: center;
   }
